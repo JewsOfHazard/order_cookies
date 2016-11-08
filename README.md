@@ -2,6 +2,7 @@
 ## Setup
 
 `pip3 install -U selenium`
+
 `brew install chromedriver`
 
 * Make a new text document in the same directory of order_cookies.py formatted as such:
@@ -16,4 +17,4 @@
 
 OPTIONAL
 
-`python3 -m "Message for workers. (Please deliver to _____ for example)"`
+`python3 order_cookies.py -m "Message for workers. (Please deliver to _____ for example)"`
