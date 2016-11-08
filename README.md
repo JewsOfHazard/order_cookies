@@ -1,9 +1,10 @@
 # OSU Order Cookies
 ## Setup
 
-`pip3 install -U selenium`
-
-`brew install chromedriver`
+```
+pip3 install -U selenium
+brew install chromedriver
+```
 
 * Make a new text document in the same directory of order_cookies.py formatted as such:
     * Line 1 - OSU Username (hazardj for example)
@@ -13,8 +14,11 @@
 
 ## Usage
 
-`python3 order_cookies.py`
+`python3 order_cookies.py [params]`
 
-OPTIONAL
+## Command Line Parameters
 
-`python3 order_cookies.py -m "Message for workers. (Please deliver to _____ for example)"`
+```
+-m, --message [Message for Food2U Employees]
+-n, --number [Number of Cookies to Order]
+```

@@ -6,6 +6,7 @@ import argparse
 
 parser = argparse.ArgumentParser(prog="PROG")
 parser.add_argument("-m", "--message", nargs="?", default="", help="Extra message to add to details.")
+parser.add_argument("-n", "--number", nargs="?", default=1, type=int, help="Number of cookies to add.")
 arguments = parser.parse_args()
 
 chromedriver = webdriver.Chrome()
@@ -25,7 +26,8 @@ element.send_keys(parameters[1])
 # element.click()
 
 element = chromedriver.find_element_by_css_selector("[data-id='41']")
-element.click()
+for i in range(arguments.number):
+    element.click()
 
 element = chromedriver.find_element_by_id("verify")
 element.send_keys(parameters[2])
