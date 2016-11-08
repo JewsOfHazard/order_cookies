@@ -1,6 +1,9 @@
 # OSU Order Cookies
 ## Setup
 
+`pip3 install -U selenium`
+`brew install chromedriver`
+
 * Make a new text document in the same directory of order_cookies.py formatted as such:
     * Line 1 - OSU Username (hazardj for example)
     * Line 2 - OSU Password (123456789 for example)
