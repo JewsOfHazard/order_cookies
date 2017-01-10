@@ -3,7 +3,16 @@
 
 ```
 pip3 install -U selenium
+```
+
+### Mac Only
+```
 brew install chromedriver
+```
+
+### Windows Only
+```
+https://sites.google.com/a/chromium.org/chromedriver/getting-started
 ```
 
 * Make a new text document in the same directory of order_cookies.py formatted as such:
